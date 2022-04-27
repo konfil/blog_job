@@ -514,6 +514,79 @@ li a.nav-link:hover{
 .sec-b:hover{
     color: rgb(234, 97, 6);
 }
+/*testimonials*/
+
+#testimonials{
+    padding: 10% 3% 10% .2%;
+}
+.test-conent{
+    margin-top: 30px;
+}
+.car-item{
+    padding: 20px;
+}
+.car-text{
+    padding: 50px 30px ;
+    font-size: 17px;
+}
+.car-text{
+    background-color: white;
+    border-radius: 30px;
+    line-height: 2;
+}
+.test-car-img{
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+.test-img{
+    width: 500px;
+    max-width: 100%;
+    padding-right: 5%;
+}
+
+/* slick */
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    border-radius: 50%;
+    outline: none;
+    background: rgb(23, 23, 23);
+}
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.slick-dots {
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
 @media (max-width:991px) {
     body{
         overflow-x: hidden;
@@ -536,6 +609,16 @@ li a.nav-link:hover{
         position: static;
         width: 350px;
         max-width: 100%;
+    }
+    .test-img-div{
+        text-align: center;
+        width: 100%;
+    }
+    .test-img{
+        width: 650px;
+    }
+    .test-conent{
+        padding: 20px 5%;
     }
     .img-p{
         display: none
@@ -597,6 +680,9 @@ li a.nav-link:hover{
     .fq-ot{
         padding: 0px 10%;
     }
+    .l-i-spec{
+        padding:0px 30% 4% 30%;
+    }
 }
 
 @media (max-width:560px) {
@@ -622,6 +708,9 @@ li a.nav-link:hover{
     }
     .img-div{
         height: 590px;
+    }
+    .l-i-spec{
+        padding:40px 30px;
     }
 }
 
