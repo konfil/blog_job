@@ -620,9 +620,15 @@ li a.nav-link:hover{
         bottom: 650px;
         right: 70px;
     }
+    .img-div{
+        height: 590px;
+    }
 }
 
 @media (max-width:400px) {
+    .review{
+        bottom: 620px;
+    }
     .main-head{
         font-size: 37px;
         font-weight: bolder;
@@ -648,5 +654,7 @@ li a.nav-link:hover{
     }
     .fa-plus{
         font-size: 13px;
+    }
+    #hero-img{
     }
 }
