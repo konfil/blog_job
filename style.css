@@ -482,11 +482,12 @@ li a.nav-link:hover{
     display: inline-block;
     padding: 0px 10px
 }
-.img-sc:hover{
-    color: orange;
-    background-color: orange;
+.sec-b{
+    color: rgb(0, 0, 33);
 }
-
+.sec-b:hover{
+    color: rgb(234, 97, 6);
+}
 @media (max-width:991px) {
     .lg,.sg{
         display: none
