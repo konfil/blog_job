@@ -130,10 +130,16 @@ li a.nav-link:hover{
 #hero-img{
     object-fit: contain;
     position: relative;
-    top: 60px;
+    top: 80px;
+}
+.review{
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0px 15px 14px 5px rgb(200, 195, 195);
 }
 .log2{
     padding:12px 25px;
+    
 }
 .sign2{
     padding:12px 65px;
@@ -179,22 +185,25 @@ li a.nav-link:hover{
 
 #people{    
 
-    background-image: url('assets/images/google\ map.jfif');
-    background-size: cover;
+    background-image: url('assets/images/dotted.png');
+    min-height:100%;
+    background-size:cover;
+    box-shadow:inset 0 0 0 2000px rgba(255, 250, 253, 0.8);
+    background-size: contain;
     background-repeat:no-repeat;
     background-position:center;
     
 }
 .people-content{
     text-align: center;
-    padding: 10% 3%;
+    padding: 10% 3% 20% 3%;
 }
 .people-h1{
     font-weight: bolder;
     font-size: 45px;
 }
 .people-txt{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:  sans-serif;
     font-size: 20px;
 }
 .p-t-p{
@@ -202,7 +211,18 @@ li a.nav-link:hover{
 }
 
 .img-pip{
-    float: left;
+    text-align: center;
+}
+.fa-user{
+    font-size: 60px;
+    position: relative;
+    top: 10px;
+    left: 40%;
+    color: rgb(234, 97, 6);
+}
+.fa-plus{
+    color: rgb(234, 97, 6);
+    font-size: 20px;
 }
 .img-in{
     color:rgb(234, 97, 6) ;
@@ -212,7 +232,7 @@ li a.nav-link:hover{
 }
 .cont-h{
     display: block;
-    font-size: 20px;
+    font-size: 30px;
     font-family: cursive;
     font-weight: bolder;
 }
@@ -270,7 +290,7 @@ li a.nav-link:hover{
 }
 .raise-eff:hover{
     transition:color 350ms ease;
-    transform: translate(0, -20px);
+    transform: translate(0, -12px);
 }
 .feat-box{
     text-align: left;
@@ -323,6 +343,10 @@ li a.nav-link:hover{
     border-bottom: 1px solid rgb(234, 97, 6);
     font-weight: bolder;
 }
+.fa-wallet{
+    color: rgb(234, 97, 6);
+    font-size: 20px;
+}
 
 /* growth */
 
@@ -339,11 +363,13 @@ li a.nav-link:hover{
 
 #growth::before {    
     content: "";
-    background-image: url('assets/images/man3.jpg');
+    background-image: url('assets/images/man6.jpg');
     background-size: cover;
     position: absolute;
     background-repeat:no-repeat;
     background-position:center;
+    min-height:100%;
+    box-shadow:inset 0 0 0 2000px rgba(4, 4, 4, 0.6);
     width:100%;
     top: 0px;
     right: 0px;
@@ -489,6 +515,9 @@ li a.nav-link:hover{
     color: rgb(234, 97, 6);
 }
 @media (max-width:991px) {
+    body{
+        overflow-x: hidden;
+    }
     .lg,.sg{
         display: none
     }
@@ -508,9 +537,11 @@ li a.nav-link:hover{
         width: 350px;
         max-width: 100%;
     }
-    .people-content{
-        padding: 0;
-        margin-top: 120px;
+    .img-p{
+        display: none
+    }
+    .pip-row{
+        padding-left: 13%;
     }
     #list{
         position: static;
@@ -525,9 +556,46 @@ li a.nav-link:hover{
     .tog-fq::after{
         margin-left: 0px;
     }
+    .tog-fq{
+        padding: 30px 0px;
+    }
     #int-inner{
         max-width: 100%; 
         height: auto; 
+    }
+    .foot-intro{
+        text-align: center;
+    }
+    .foot-nav{
+        padding: 0px 5%;
+        margin-top: 40px;
+    }
+    #copyright{
+        text-align: center;
+    }
+    .left{
+        float: none;
+        margin-bottom: 30px;
+    }
+    .foot-link{
+        font-size: 13px;
+    }
+    #faq{
+        padding:0px;
+        margin: 0px;
+    }
+    #growth{
+        margin-top: 15px;
+    }
+    .g-h1{
+        font-size: 40px;
+    }
+    .g-txt{
+        font-size: 18px;
+    }
+ 
+    .fq-ot{
+        padding: 0px 10%;
     }
 }
 
@@ -545,6 +613,13 @@ li a.nav-link:hover{
     .feat-box{
         margin-bottom: 40px;
     }
+    #copyright{
+        padding: 30px;
+    }
+    .review{
+        bottom: 650px;
+        right: 70px;
+    }
 }
 
 @media (max-width:400px) {
@@ -557,5 +632,21 @@ li a.nav-link:hover{
     }
     .intro-text{
         margin-top: 10px;
+    }
+    .cont-h{
+        font-size: 18px;
+    }
+    .col-8{
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .people-h1{
+        font-size: 35px;
+    }
+    .p-t-p{
+        font-size: 16px;
+    }
+    .fa-plus{
+        font-size: 13px;
     }
 }
