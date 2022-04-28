@@ -130,8 +130,8 @@ li a.nav-link:hover{
 #hero-img{
     object-fit: contain;
     position: relative;
-    top: 50px;
-    right: 80px;
+    right: 150px;
+    bottom: 30px;
 }
 
 .log2{
@@ -160,7 +160,7 @@ li a.nav-link:hover{
     margin-top: 50px;
 }
 .list-item{
-    padding:40px 30px;
+    padding:40px 0px;
 }
 .list-sm{
     margin-top: 20px;
@@ -626,7 +626,8 @@ li a.nav-link:hover{
     }
     #hero-img{
         position: static;
-        width: 560px;
+        width: 600px;
+        height: 700px;
         max-width: 100%;
         max-height: 100%;
     }
@@ -709,9 +710,27 @@ li a.nav-link:hover{
     .col-lg-3,.col-sm-3{
         padding: 0px;
     }
+    .img-div{
+        height: 450px;
+        margin-bottom: 15px;
+    }
+    #introduction,#list,#people,#contact,#faq,#copyright,#footer,#integrate,#featured,#testimonials{
+        padding: 0px 9%;
+    }
+    .people-content{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .test-row{
+        padding: 80px 0px;
+    }
+    .car-item{
+        padding-left: 20px;
+    }
 }
 
 @media (max-width:560px) {
+  
     .log{
         margin-bottom: 10px;
     }
@@ -725,23 +744,22 @@ li a.nav-link:hover{
     .feat-box{
         margin-bottom: 40px;
     }
-
-    .review{
-        bottom: 650px;
-        right: 70px;
-    }
  
-    .img-div{
-        height: 650px;
-    }
     .l-i-spec{
         padding:40px 30px;
     }
+    
+    .l-i-spec{
+        padding:0px ;
+    }
+    
+
 }
 
 @media (max-width:400px) {
     .img-div{
-        height: 450px;
+        height:350px;
+        margin-bottom: 15px;
     }
     .main-head{
         font-size: 37px;
