@@ -34,7 +34,7 @@ html,body{
     color: rgb(234, 97, 6);
 }
 .fa-bars{
-    margin: 6px 3px;
+    margin: 6px 1px;
     font-size: 25px;
 }
 .navbar-toggler{
@@ -46,9 +46,10 @@ li a.nav-link:hover{
 .dropdown{
     margin-top: 18px;
 }
-.navbar-brand{
-    margin-bottom: 7px;
+.dropdown-menu{
+    border: 0px;
 }
+
  
 #dropdownMenuLink,#dropdownMenuLink2,#dropdownMenuLink3{
     text-decoration: none;
@@ -757,6 +758,30 @@ hr {
     .cop-row{
         padding-top: 30px;
      }
+    .dropdown{
+        margin-top: 15px;
+    }
+    .sec2{
+        margin-top: 0px;
+    }
+    .nav-item{
+        margin-right: 0px;
+    }
+    ul.navbar-nav{
+        max-width: 100%;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 4px 20px 8px 5px rgb(225, 224, 224);
+    }
+    .pg{
+        margin-bottom: 20px;
+    }
+    .hm{
+        background-color: rgb(237 241 252);
+    }
+    .nav-item{
+        padding: 0px 40px;
+    }
 }
 
 @media (max-width:560px) {
