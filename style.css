@@ -21,7 +21,7 @@ html,body{
     margin-right: 20px;
 }
 .nav-link,.dropdown-toggle,.my-button{
-    font-weight: bold;
+    font-weight: 400;
     font-size: 16px;
 }
 .nav-link{
@@ -56,10 +56,7 @@ li a.nav-link:hover{
 #dropdownMenuLink{
     color: rgb(234, 97, 6);
 }
-#dropdownMenuLink2:hover{
-    color:rgb(234, 97, 6) ;
-    transition-delay: 0.2s;
- }
+
 #dropdownMenuLink3:hover{
     color:rgb(234, 97, 6) ;
     transition-delay: 0.2s;
@@ -69,7 +66,7 @@ li a.nav-link:hover{
     transition-delay: 0.2s;
  }
  .dropdown-item{
-     font-weight: 500;
+     font-weight: normal;
      font-size: 17px;
  }
  .dropdown-item:hover{
@@ -85,7 +82,9 @@ li a.nav-link:hover{
 .my-button{
     border-radius: 35px;
     padding:10px 30px;
-    
+}
+.dropdown-toggle::after {
+    display: none;
 }
 .cloud{
     position: absolute;
@@ -787,10 +786,16 @@ hr {
         margin-bottom: 20px;
     }
     .hm{
-        background-color: rgb(237 241 252);
+        background-color: rgb(249, 248, 248);
     }
     .nav-item{
         padding: 0px 40px;
+    }
+    div.dropdown.special{
+        padding-bottom: 15px;
+    }
+    .special{
+        padding-bottom: 15px;
     }
 }
 
