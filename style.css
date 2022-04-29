@@ -423,6 +423,11 @@ li a.nav-link:hover{
 }
 .fq-txt{
     margin-top: 30px;
+    font-size: 19px;
+}
+.fh1{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Geneva, Tahoma, sans-serif;
 }
 .accordion-button:focus {
     box-shadow: none;
@@ -457,6 +462,7 @@ li a.nav-link:hover{
     padding: 30px;
   
 }
+clas
 
 
 
@@ -468,6 +474,9 @@ li a.nav-link:hover{
 }
 .cont-div{
     padding: 60px 0px;
+}
+.intro{
+    text-align: center;
 }
 
 /* footer */
