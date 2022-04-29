@@ -14,7 +14,8 @@ html,body{
 
 /* Navbar */
 .navbar{
-    padding: 0px 9%;
+    padding: 10px 9%;
+    background-color:#ffffff;
 }
 .nav-item{
     margin-right: 20px;
@@ -37,9 +38,7 @@ html,body{
     margin: 6px 1px;
     font-size: 25px;
 }
-.navbar-toggler{
-    background-color: rgb(243, 243, 243);
-}
+
 li a.nav-link:hover{
     color:rgb(234, 97, 6) ;
 }
@@ -116,6 +115,7 @@ li a.nav-link:hover{
 /* introduction */
 
 #introduction{
+    margin-top: 20px;
     padding: 0px 9%;
     display: hidden;
     font-family: 'Licorice', cursive;
@@ -142,7 +142,7 @@ li a.nav-link:hover{
 #hero-img{
     object-fit: contain;
     position: relative;
-    right: 100px;
+    right: 90px;
     bottom: 30px;
 }
 
@@ -642,6 +642,7 @@ hr {
     .lg,.sg{
         display: none
     }
+ 
     .intro-text{
         margin: 0px;
         margin-top: 100px;
@@ -774,7 +775,10 @@ hr {
         max-width: 100%;
         background-color: white;
         border-radius: 20px;
-        box-shadow: 4px 20px 8px 5px rgb(225, 224, 224);
+        box-shadow: 4px 20px 20px 5px rgb(245, 245, 245);
+    }
+    .navbar-collapse{
+        padding: 20px 0px 40px 0px;
     }
     .pg{
         margin-bottom: 20px;
@@ -808,8 +812,8 @@ hr {
     }
     .n{
         max-width: 100%;
-        width: 130px;
-        height: 26px;
+        width: 150px;
+        height: 34px;
     }
     
   
