@@ -24,7 +24,21 @@ html,body{
     font-size: 16px;
 }
 .nav-link{
-    color:black;
+    color:rgb(0 40 85);
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
+}
+.navbar-toggler:hover>.fa-bars {
+    color: rgb(234, 97, 6);
+}
+.fa-bars{
+    margin: 6px 3px;
+    font-size: 25px;
+}
+.navbar-toggler{
+    background-color: rgb(243, 243, 243);
 }
 li a.nav-link:hover{
     color:rgb(234, 97, 6) ;
@@ -63,7 +77,7 @@ li a.nav-link:hover{
     background-color: white;
  }
 .dropdown-toggle{
-    color: black;
+    color: rgb(0 40 85);
 }
 .secs{
     margin-top: 10px;
@@ -87,7 +101,7 @@ li a.nav-link:hover{
     border: 2px solid black;
 }
 .sign:hover{
-    background-color: rgb(54, 54, 81);
+    background-color: rgb(0 40 85);
     color: white;
     transition-delay: 0.2s;
 }
@@ -461,7 +475,12 @@ li a.nav-link:hover{
     padding: 0px 7%;
     background-color: rgb(0, 0, 0);
     color: white;
-    border-bottom: 1px solid white;
+}
+hr { 
+    display: block;
+    border: 0; border-top: 1px solid rgb(254, 253, 253);
+    margin: 1em 0; padding: 0; 
+    font-size: 0px;
 }
 .foot-div{
     padding: 10% 0px 7% 0px;
