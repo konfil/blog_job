@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Licorice&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;500&family=Licorice&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/6149d4f6a5.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css">
         <script src="https://kit.fontawesome.com/6149d4f6a5.js" crossorigin="anonymous"></script>
@@ -18,7 +19,7 @@
             <img src="assets/images/cloud.png" class="cloud" alt="cloud">
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="#title" id="he3ader"><img src="assets/icons/log-moxpay.jpeg" alt="logo" width="230" height="60"></a>
+                    <a class="navbar-brand" href="#title" id="he3ader"><img src="assets/icons/logo.png" alt="logo" width="230" height="60" class="n"></a>
                     <button class="navbar-toggler btn" type="button" data-bs-toggle="collapse"         data-bs-target="#nav1" aria-label="Toggle navigation" aria-controls="nav1" aria-expanded="false">
                       <span class="navbar-toggler-icon"></span>
                     </button>
@@ -110,6 +111,7 @@
                         </div>
                             
                     </div>
+                    
                     <div class="col-lg-4 col-sm-6 list-item">
                         <div class="small-div">
                             <img src="assets/icons/stats.png" class="small-img" width="35" height="35" alt="">
@@ -119,6 +121,7 @@
                             <p class="list-sm">mperdiet fusce pede nec ipsum quis placerat nunc eros ante risus laoreet</p>
                         </div>
                     </div>
+                   
                     <div class="col-lg-4 list-item l-i-spec">
                         <div class="small-div">
                             <img src="assets/icons/contract.png" class="small-img" width="35" height="35" alt="">
@@ -228,7 +231,7 @@
         <section id="featured" class="thick-font">
             <div class="intro">
                 <h6 class="feat-h6">FEATURED</h6>
-                <h1 class="feat-h1">Smart Solution For Your Payment</h1>
+                <h1 class="feat-h1 thick-font">Smart Solution For Your Payment</h1>
             </div>
             <div class="row feat-row">
                 <div class=" col-lg-4 col-sm-4">
@@ -360,71 +363,85 @@
                 <div class="row">
                     <div class="col-lg-4 fq-ot">
                         <h6 class="int-h5">FAQ</h6>
-                        <h2 class="int-h1">Frequently Ask Questions</h2>
+                        <h2 class="int-h1 thick-font">Frequently Ask Questions</h2>
                         <p class="people-txt fq-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                     </div>
                     <div class="col-lg-8">
                         <div class="fq-div">
-                        <div class="dropdown tog-main" >
-                            <a class="dropdown-toggle tog-fq" href="#" role="button" id="f1" data-bs-toggle="dropdown" aria-expanded="false" >
-                              Mattis Cuccunt Consectutor in?
-                            </a>
-                            <div class="dropdown-menu p-4 text-muted" data-bs-display="static" >
-                                <p>
-                                    Turpis adipiscing pede letius commodo amet maecenas magnis nibh lacinia. Parturient praesent magna maximus est nostra convallis mollis mauris.
-                                </p>
+                            <div class="accordion thick-font" id="accordionExample">
+                                <div class="accordion-item main">
+                                  <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                     Mattis tucudunt consectutor tutor in?
+                                    </button>
+                                  </h2>
+                                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Turpis adipiscing pede letius commodo amet maecenas magnis nibh lacinia. Parturient praesent magna maximus est nostra convallis mollis mauris.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item ">
+                                  <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Mattis tucudunt consectutor tutor in?
+                                    </button>
+                                  </h2>
+                                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Turpis adipiscing pede letius commodo amet maecenas magnis nibh lacinia. Parturient praesent magna maximus est nostra convallis mollis mauris.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Mattis tucudunt consectutor tutor in?
+                                    </button>
+                                  </h2>
+                                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Turpis adipiscing pede letius commodo amet maecenas magnis nibh lacinia. Parturient praesent magna maximus est nostra convallis mollis mauris.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        Mattis tucudunt consectutor tutor in?
+                                    </button>
+                                  </h2>
+                                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Turpis adipiscing pede letius commodo amet maecenas magnis nibh lacinia. Parturient praesent magna maximus est nostra convallis mollis mauris.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        Mattis tucudunt consectutor tutor in?
+                                    </button>
+                                  </h2>
+                                  <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Turpis adipiscing pede letius commodo amet maecenas magnis nibh lacinia. Parturient praesent magna maximus est nostra convallis mollis mauris.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        Mattis tucudunt consectutor tutor in?
+                                    </button>
+                                  </h2>
+                                  <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Turpis adipiscing pede letius commodo amet maecenas magnis nibh lacinia. Parturient praesent magna maximus est nostra convallis mollis mauris.
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
-                          </div>
-                        <div class="dropdown tog-main" >
-                            <a class="dropdown-toggle tog-fq" href="#" role="button" id="f1" data-bs-toggle="dropdown" aria-expanded="false" >
-                              Mattis Cuccunt Consectutor in?
-                            </a>
-                            <div class="dropdown-menu p-4 text-muted" data-bs-display="static" >
-                                <p>
-                                    Turpis adipiscing pede letius commodo amet maecenas magnis nibh lacinia. Parturient praesent magna maximus est nostra convallis mollis mauris.
-                                </p>
-                              </div>
-                          </div>
-                        <div class="dropdown tog-main" >
-                            <a class="dropdown-toggle tog-fq" href="#" role="button" id="f1" data-bs-toggle="dropdown" aria-expanded="false" >
-                              Mattis Cuccunt Consectutor in?
-                            </a>
-                            <div class="dropdown-menu p-4 text-muted" data-bs-display="static" >
-                                <p>
-                                    Turpis adipiscing pede letius commodo amet maecenas magnis nibh lacinia. Parturient praesent magna maximus est nostra convallis mollis mauris.
-                                </p>
-                              </div>
-                          </div>
-                        <div class="dropdown tog-main" >
-                            <a class="dropdown-toggle tog-fq" href="#" role="button" id="f1" data-bs-toggle="dropdown" aria-expanded="false" >
-                              Mattis Cuccunt Consectutor in?
-                            </a>
-                            <div class="dropdown-menu p-4 text-muted" data-bs-display="static" >
-                                <p>
-                                    Turpis adipiscing pede letius commodo amet maecenas magnis nibh lacinia. Parturient praesent magna maximus est nostra convallis mollis mauris.
-                                </p>
-                              </div>
-                          </div>
-                        <div class="dropdown tog-main" >
-                            <a class="dropdown-toggle tog-fq" href="#" role="button" id="f1" data-bs-toggle="dropdown" aria-expanded="false" >
-                              Mattis Cuccunt Consectutor in?
-                            </a>
-                            <div class="dropdown-menu p-4 text-muted" data-bs-display="static" >
-                                <p>
-                                    Turpis adipiscing pede letius commodo amet maecenas magnis nibh lacinia. Parturient praesent magna maximus est nostra convallis mollis mauris.
-                                </p>
-                              </div>
-                          </div>
-                        <div class="dropdown tog-main" >
-                            <a class="dropdown-toggle tog-fq" href="#" role="button" id="f1" data-bs-toggle="dropdown" aria-expanded="false" >
-                              Mattis Cuccunt Consectutor in?
-                            </a>
-                            <div class="dropdown-menu p-4 text-muted" data-bs-display="static" >
-                                <p>
-                                    Turpis adipiscing pede letius commodo amet maecenas magnis nibh lacinia. Parturient praesent magna maximus est nostra convallis mollis mauris.
-                                </p>
-                              </div>
-                          </div>
                         </div>
                     </div>
 
@@ -449,7 +466,7 @@
                 <div class="row">
                     <div class="col-lg-4 ">
                         <div class="foot-intro">
-                            <img src="assets/icons/log-moxpay.jpeg" width="200" alt="">
+                            <img src="assets/icons/logo.png" width="200" alt="">
                             <p class="foot-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                             <a href="" ><img class="app" src="assets/images/Google-Play_button.png" width="130" height="40" alt=""></a>
                             <a href="" ><img class="app" src="assets/images/App-Store_button.png" width="130" height="40" alt=""></a>
@@ -520,7 +537,7 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="right">
-                        <p>Copyright © 2021 moxpay, All rights reserved. Powered by MoxCreative.</p>
+                        <p>Copyright © 2021 bold wallet, All rights reserved. Powered by BoldCreative.</p>
                     </div>
                 </div>
             </div>
