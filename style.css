@@ -797,6 +797,9 @@ hr {
     .special{
         padding-bottom: 15px;
     }
+    .l-i-spec{
+        padding:2px 25%;
+    }
 }
 
 @media (max-width:560px) {
