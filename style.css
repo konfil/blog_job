@@ -14,7 +14,7 @@ html,body{
 
 /* Navbar */
 .navbar{
-    padding: 10px 9%;
+    padding: 10px 1% 10px 9%;
     background-color:#ffffff;
 }
 .nav-item{
@@ -89,7 +89,9 @@ li a.nav-link:hover{
 .cloud{
     position: absolute;
     z-index: -1;
-    right: 0.01px;
+    width: 100%;
+    opacity: 0.7;
+    
 }
 .sign{
     background-color: rgb(234, 97, 6);
@@ -135,13 +137,13 @@ li a.nav-link:hover{
     
 }
 .img-div{
-    object-fit: contain;
+    object-fit: contain; 
 
 }
 #hero-img{
     object-fit: contain;
-    position: relative;
-    right: 90px;
+   
+    
     bottom: 30px;
 }
 
@@ -649,6 +651,10 @@ hr {
     }
     .lg,.sg{
         display: none
+    }
+    .cloud{
+        right: 0.01px;
+        width: auto;
     }
  
     .intro-text{
